@@ -39,6 +39,7 @@ export function Navigation() {
       <div className="max-w-6xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center">
+            <span className="font-mono text-lg font-semibold">kenny</span>
           </div>
 
           <div className="hidden md:flex items-center space-x-8">

@@ -18,7 +18,8 @@ const firaCode = Fira_Code({
 
 export const metadata: Metadata = {
   title: "Kenny - Backend Developer",
-  description: "Portfolio of Kenny, a passionate backend developer crafting robust systems and APIs"
+  description: "Portfolio of Kenny, a passionate backend developer crafting robust systems and APIs",
+  generator: "v0.app",
 }
 
 export default function RootLayout({

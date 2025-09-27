@@ -87,6 +87,9 @@ export function Hero() {
             >
               View My Work
             </Button>
+            <Button variant="outline" size="lg" onClick={() => window.open("tel:+2349067339193")} className="px-8">
+              +234 906 733 9193
+            </Button>
           </div>
         </div>
 
