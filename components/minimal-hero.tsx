@@ -72,7 +72,15 @@ export function MinimalHero() {
           <button className="px-8 py-3 border border-gray-600 font-mono text-sm tracking-wider hover:bg-white hover:text-black transition-all duration-300">
             RESUME
           </button>
-          <button className="px-8 py-3 bg-white text-black font-mono text-sm tracking-wider hover:bg-gray-200 transition-all duration-300">
+          <button
+            onClick={() => {
+              const element = document.getElementById("contact")
+              if (element) {
+                element.scrollIntoView({ behavior: "smooth" })
+              }
+            }}
+            className="px-8 py-3 bg-white text-black font-mono text-sm tracking-wider hover:bg-gray-200 transition-all duration-300"
+          >
             CONTACT
           </button>
         </div>

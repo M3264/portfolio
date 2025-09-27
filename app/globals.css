@@ -154,3 +154,36 @@
   border: 1px solid rgba(112, 192, 232, 0.2);
   font-family: var(--font-mono);
 }
+
+/* Adding smooth scroll behavior for the entire page */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Adding scroll-triggered fade-in animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in-up {
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+
+/* Adding intersection observer animation classes */
+.scroll-animate {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s ease-out;
+}
+
+.scroll-animate.in-view {
+  opacity: 1;
+  transform: translateY(0);
+}
