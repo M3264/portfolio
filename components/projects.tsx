@@ -21,11 +21,11 @@ export function Projects() {
       featured: true,
     },
     {
-      title: "Movies Room",
-      description: "Streaming platform with robust backend infrastructure for content delivery.",
-      tech: ["Streaming", "Database", "Authentication"],
+      title: "FilmBase",
+      description: "Download movies and tv series with ease.",
+      tech: ["Streaming", "Movies", "Series"],
       links: {
-        web: "https://movies.kord-ai.web.id",
+        web: "https://filmbase.fun",
       },
     },
     {
